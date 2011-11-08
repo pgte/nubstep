@@ -1,5 +1,5 @@
 var maestro = require('./lib/maestro')();
-var freq = 10;
+var freq = 50;
 maestro.setFreq(freq);
 maestro.start();
 
