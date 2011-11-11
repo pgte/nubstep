@@ -1,4 +1,8 @@
 {
-  "name": "Nubstep",
-  "private": true,
+    "name": "Nubstep"
+  , "version": "0.1.0"
+  , "private": true
+  , "dependencies": {
+    "roar": "0.1.x"
+  }
 }
