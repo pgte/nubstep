@@ -29,7 +29,6 @@ function Hoooker (options) {
     maestro.start();
     
     self.on('serial::knobs', function(data) {
-      console.log(data);
       Object.keys(data).forEach(function(key) {
         var value = parseInt(data[key], 10);
         var fun = KNOB_MAP[parseInt(key, 10)];
