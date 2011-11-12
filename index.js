@@ -3,7 +3,7 @@ var maestro = require('./lib/maestro')();
 var Knob = require('./lib/knob');
 var InnertialKnob = require('./lib/innertial_knob');
 
-var Sound = require('node-sound/build/default/sound');
+var Sound = require('sound/build/default/sound');
 var sound1 = Sound.create(Sound.bufferifySync(__dirname + '/samples/dubstep.wav'));
 var sound1Playing = false;
 var sound2 = Sound.create(Sound.bufferifySync(__dirname + '/samples/dubstep2.wav'));
