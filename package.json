@@ -3,6 +3,7 @@
   , "version": "0.1.0"
   , "private": true
   , "dependencies": {
-    "roar": "0.1.x"
+      "roar": "0.1.x"
+    , "hook.io": "0.7.x"
   }
 }
