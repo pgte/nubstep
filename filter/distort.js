@@ -13,9 +13,6 @@ module.exports = function(volume) {
   }
   
   distortFilter.volume = function(_volume) {
-    if (_volume < 1) {
-      _volume = 1;
-    }
     volume = _volume;
   }
   

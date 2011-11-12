@@ -18,7 +18,6 @@ module.exports = function(freq) {
   }
   
   envelopeFilter.freq = function(_freq) {
-    console.log('NEW ENVELOPE FREQ:', _freq);
     freq = _freq;
   }
   
